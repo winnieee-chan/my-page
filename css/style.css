@@ -9,6 +9,7 @@ body {
 
 h2 {
     color: rgb(254, 213, 89);
+    font-family: 'Protest Riot', sans-serif;
 }
 
 li {
@@ -40,6 +41,7 @@ a {
     overflow: hidden;
     position: fixed;
     z-index: 100;
+    font-family: 'Protest Riot', sans-serif;
 }
 
 #nav-bar a {
@@ -67,12 +69,13 @@ a {
     border-radius: 25px;
     text-align: center;
     box-sizing: border-box;
-    
+    font-family: 'Protest Riot', sans-serif;
 }
 
 #about-me p {
     color: rgb(6, 6, 74);
     font-size: 15px;
+    font-family: 'Protest Riot', sans-serif;
 }
 
 
