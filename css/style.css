@@ -1,0 +1,198 @@
+body {
+    background-image: url(../assets/night-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    line-height: 1.6em;
+}
+
+h2 {
+    color: rgb(254, 213, 89);
+}
+
+li {
+    display: inline;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+table tr{
+    text-align: left;
+}
+
+table td{
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* nav-bar */
+#nav-bar {
+    width: 100%;
+    margin: auto;
+    background-color: rgb(19, 19, 56);
+    overflow: hidden;
+    position: fixed;
+    z-index: 100;
+}
+
+#nav-bar a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: rgb(254, 200, 43);
+    text-decoration: none;
+    width: 20%;
+}
+
+#nav-bar a:hover {
+    color: bisque;
+    background-color: rgb(73, 73, 128);
+}
+
+/* about-me */
+#about-me {
+    padding: 10px;
+    float: center;
+    width: 50%;
+    height: 450px;
+    margin: auto;
+    background-color: rgb(58, 72, 135);
+    border-radius: 25px;
+    text-align: center;
+    box-sizing: border-box;
+    
+}
+
+#about-me p {
+    color: rgb(6, 6, 74);
+    font-size: 15px;
+}
+
+
+#about-me img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.pic-container {
+    margin: auto;
+    perspective: 200px;
+}
+
+.pic-container:hover .pic {
+    transform: rotateY(180deg);
+}
+
+.pic-container, .front, .back {
+    width: 150px;
+    height: 150px;
+}
+
+.front, .back {
+    background: rgb(82, 117, 223);
+}
+
+.pic {
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.front, .back {
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.front {
+    z-index: 2;
+    transform: rotateY(0deg);
+}
+
+.back {
+    transform: rotateY(180deg);
+}
+
+.info-container  {
+    margin: auto;
+}
+
+.info-container table {
+    margin: auto;
+    color: rgb(255, 224, 130);
+}
+
+/* photography */
+#photography {
+    margin: auto;
+    width: 50%;
+    background-color: rgb(58, 72, 135);
+    border-radius: 25px;
+    padding: 10px;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.scroll-container {
+    width: 70%;
+    margin: auto;
+    background-color: rgb(116, 128, 180);
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.scroll-container img {
+    padding: 5px;
+    padding-bottom: 2px;
+    width: 300px;
+    height: 200px;
+}
+
+/* contact */
+#contact {
+    padding: 10px;
+    float: center;
+    width: 50%;
+    height: 330px;
+    margin: auto;
+    background-color: rgb(58, 72, 135);
+    border-radius: 25px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#contact a {
+    color: rgb(244, 219, 128);
+    float: left;
+    text-align: center;
+    width: 50%
+}
+
+.contact-container {
+    width: 60%;
+    margin: auto;
+}
+
+#contact img {
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    padding-bottom: 3px;
+}
+
+footer {
+    color: rgb(107, 107, 237);
+    text-align: center;
+}
